@@ -131,6 +131,8 @@ author:
 
 # Site Footer
 footer:
+  background: "black"
+  textcolor: "white"
   links:
     - label: "Youtube"
       icon: "fab fa-fw fa-youtube-square"
