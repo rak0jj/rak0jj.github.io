@@ -119,11 +119,8 @@ author:
   location         : "대한민국"
   email            : "jfkrdud@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "jfkrdud@gmail.com"
     - label: "Youtube"
-      icon: "fab fa-fw fa-youtube-play"
+      icon: "fab fa-fw fa-youtube-square"
       url: "http://www.youtube.com/@%EC%9E%A5%EB%9D%BD%EC%98%81"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
