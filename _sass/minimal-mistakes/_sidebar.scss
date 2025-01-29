@@ -24,8 +24,9 @@
     transition: opacity 0.2s ease-in-out;
     
     background: url('/assets/sidebarBackground.jpg');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-position: center
 
     &:hover {
       opacity: 1;
