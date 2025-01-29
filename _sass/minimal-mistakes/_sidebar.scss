@@ -16,6 +16,12 @@
   //   transform: translate3d(0, 0, 0);
   // }
 
+  @include sidebarImg {
+    background-image: url('/assets/sidebarBackground.jpg');
+    background-position: center;
+    object-fit: cover;
+  }
+
   @include breakpoint($large) {
     float: inline-start;
     width: calc(#{$right-sidebar-width-narrow} - 1em);
@@ -23,10 +29,8 @@
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
     
-    background: url('/assets/sidebarBackground.jpg');
-    background-size: contain;
+    background: image(sidebarImg);
     background-repeat: no-repeat;
-    background-position: center;
 
     &:hover {
       opacity: 1;
