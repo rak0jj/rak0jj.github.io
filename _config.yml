@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "custom"
 
 # Site Settings
 locale                   : "ko-KR"
@@ -24,7 +24,7 @@ name                     : "Rak0jj"
 description              : "An amazing website."
 url                      : "https://rak0jj.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "https://github.com/rak0jj/rak0jj.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # "/assets/logoProfile.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -116,7 +116,7 @@ author:
   name             : "Rak0jj"
   avatar           : "/assets/logoProfile.jpg"
   bio              : "💻 KNU Mobile Engineering"
-  location         : "대한민국"
+  location         : "Daegu, South Korea"
   email            : "jfkrdud@gmail.com"
   links:
     - label: "Youtube"
@@ -308,4 +308,12 @@ defaults:
       share: true
       related: true
 
+
+# ----------------------------------------------------------------------------------------
+# Customizaton
+# ----------------------------------------------------------------------------------------
+ 
+# Sidebar image and theme color of the site.
 future: true
+
+accent_image:          /assets/sidebarBackground.jpg
