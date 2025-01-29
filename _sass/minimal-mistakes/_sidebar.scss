@@ -22,6 +22,10 @@
       opacity: 0.75;
       -webkit-transition: opacity 0.2s ease-in-out;
       transition: opacity 0.2s ease-in-out;
+
+      background: url("/assets/img/sidebarBg.gif");
+      background-size: contain;
+      background-position: center;
   
       &:hover {
         opacity: 1;
