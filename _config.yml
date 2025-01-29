@@ -313,7 +313,7 @@ defaults:
 # Customizaton
 # ----------------------------------------------------------------------------------------
  
-# Sidebar image and theme color of the site.
 future: true
 
-accent_image:          /assets/sidebarBackground.jpg
+# Sidebar image and theme color of the site.
+accent_image: /assets/sidebarBackground.jpg
