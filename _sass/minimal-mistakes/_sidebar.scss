@@ -7,8 +7,6 @@
    ========================================================================== */
 
 .sidebar {
-  background-image: url('/assets/sidebarBackground.jpg');
-
   @include clearfix();
   // @include breakpoint(max-width $large) {
   //   /* fix z-index order of follow links */
@@ -24,6 +22,7 @@
     opacity: 0.75;
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
+    background: url('/assets/sidebarBackground.jpg');
 
     &:hover {
       opacity: 1;
