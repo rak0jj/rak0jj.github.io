@@ -7,6 +7,8 @@
    ========================================================================== */
 
 .sidebar {
+  background-image: url('/assets/sidebarBackground.jpg');
+
   @include clearfix();
   // @include breakpoint(max-width $large) {
   //   /* fix z-index order of follow links */
@@ -245,7 +247,7 @@
   list-style-type: none;
   border: 1px solid $border-color;
   border-radius: $border-radius;
-  background: url('/assets/sidebarBackground.jpg');
+  background: $background-color;
   box-shadow: 0 2px 4px 0 rgba(#000, 0.16), 0 2px 10px 0 rgba(#000, 0.12);
   cursor: default;
 
