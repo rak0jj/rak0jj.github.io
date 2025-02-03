@@ -15,17 +15,18 @@
 minimal_mistakes_skin    : custom
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "ko-KR"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Rak0jj Blog"
+title                    : "Rak0jj Devlog"
 title_separator          : "-"
-subtitle                 : "개발, 독서, 일상."
+subtitle                 : #"개발, 독서, 일상."
 name                     : "Rak0jj"
-description              : "An amazing website."
+description              : "Dev Records"
 url                      : "https://rak0jj.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/rak0jj/rak0jj.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+
 logo                     : # "/assets/logoProfile.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
@@ -36,7 +37,7 @@ copyright_url            : # "copyright" URL, defaults to site.url
 comments:
   provider               : utterances # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : rak0jj-github-io # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -45,8 +46,8 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    theme                : "github-dark" # "github-light" (default), "github-dark"
+    issue_term           : "pathname" # "pathname" (default)
   giscus:
     repo_id              : # Shown during giscus setup at https://giscus.app
     category_name        : # Full text name of the category
@@ -103,7 +104,7 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
-# Analytics
+# Analytics # SETUP LATER
 analytics:
   provider               : # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
@@ -118,19 +119,19 @@ author:
   bio              : "💻 KNU Mobile Engineering"
   location         : "Daegu, South Korea"
   email            : # "jfkrdud@gmail.com"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:jfkrdud@gmail.com
-    - label: "Youtube"
-      icon: "fab fa-fw fa-youtube-square"
-      url: "http://www.youtube.com/@%EC%9E%A5%EB%9D%BD%EC%98%81"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/rak0jj"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/rak0_0jjang/"
+  #links:
+  #  - label: "Email"
+  #    icon: "fas fa-fw fa-envelope-square"
+  #    url: mailto:jfkrdud@gmail.com
+  #  - label: "Youtube"
+  #    icon: "fab fa-fw fa-youtube-square"
+  #    url: "http://www.youtube.com/@%EC%9E%A5%EB%9D%BD%EC%98%81"
+  #  - label: "GitHub"
+  #    icon: "fab fa-fw fa-github"
+  #    url: "https://github.com/rak0jj"
+  #  - label: "Instagram"
+  #    icon: "fab fa-fw fa-instagram"
+  #    url: "https://www.instagram.com/rak0_0jjang/"
 
 # Site Footer
 footer:
@@ -216,7 +217,7 @@ sass:
 # Outputting
 permalink: /:categories/:title/
 timezone: Asia/Seoul
-paginate: 15 # amount of posts to show
+paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 
 # Pagination with jekyll-paginate-v2
@@ -246,7 +247,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
@@ -254,7 +255,7 @@ whitelist:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-include-cache
 
 
@@ -271,9 +272,9 @@ whitelist:
 category_archive:
   type: liquid
   path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+#tag_archive:
+#  type: liquid
+#  path: /tags/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -308,14 +309,16 @@ defaults:
       comments: true
       share: true
       related: true
+      sidebar:
+        nav: "categories"
 
   # _pages                      : 해당 하단 영역이 새로 추가되었습니다.
-  - scope:
-      path: "_pages" #""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+  # - scope:
+  #    path: "_pages" #""
+  #    type: pages
+  #  values:
+  #    layout: single
+  #    author_profile: true
 
 # ----------------------------------------------------------------------------------------
 # Customizaton
