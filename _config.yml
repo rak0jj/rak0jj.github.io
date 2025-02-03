@@ -116,10 +116,10 @@ analytics:
 author:
   name             : "Rak0jj"
   avatar           : "/assets/img/logoProfile.jpg"
-  bio              : "💻 KNU Mobile Engineering"
-  location         : "Daegu, South Korea"
-  email            : # "jfkrdud@gmail.com"
-  #links:
+  # bio              : "💻 KNU Mobile Engineering"
+  # location         : "Daegu, South Korea"
+  # email            : # "jfkrdud@gmail.com"
+  # links:
   #  - label: "Email"
   #    icon: "fas fa-fw fa-envelope-square"
   #    url: mailto:jfkrdud@gmail.com
