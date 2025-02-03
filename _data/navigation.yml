@@ -1,12 +1,36 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "First post"
-    url: https://rak0jj.github.io/first/
-  - title: "Sample Posts"
-    url: /year-archive/
-  - title: "Sample Collections"
-    url: /collection-archive/
-  - title: "Sitemap"
-    url: /sitemap/
+  - title: "About"
+    url: /about/
+  - title: "GitHub"
+    url: https://github.com/rak0jj
+
+
+# sidebar navigation (categories)
+categories:
+  - title: "Basics"
+    children:
+      - title: "C/C++"
+        url: /basics/cpp/
+      - title: "Algorithm"
+        url: /basics/algorithm/
+      - title: "GitHub"
+        url: /basics/github/
+      - title: "Markdown"
+        url: /basics/md/
+  
+  - title: "Projects"
+    children:
+      - title: "GitHub Blog"
+        url: /projects/github-blog/
+
+  - title: "Rak0jj"
+    children:
+      - title: "About Me"
+        url: /rak0jj/about-me/
+      - title: "Books"
+        url: /rak0jj/books/
+      - title: "Music"
+        url: /rak0jj/music/
+      - title: "Learning Note"
+        url: /rak0jj/learning-note/
