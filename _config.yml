@@ -12,12 +12,12 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : default
+minimal_mistakes_skin    : custom
 
 # Site Settings
 locale                   : "ko-KR"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Rak0jj의 블로그"
+title                    : "Rak0jj Blog"
 title_separator          : "-"
 subtitle                 : "개발, 독서, 일상."
 name                     : "Rak0jj"

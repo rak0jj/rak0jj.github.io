@@ -176,7 +176,7 @@
   -ms-flex-align: center;
   align-items: center;
   min-height: $nav-height;
-  background: $background-color;
+  background: rgba(37,42,52,0.85); //cstm1
 
   a {
     display: block;
