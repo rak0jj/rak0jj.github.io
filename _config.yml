@@ -27,7 +27,7 @@ name                     : "Rak0jj"
 description              : "Dev Records"
 url                      : "https://rak0jj.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "rak0jj/blogComments.github.io"
+repository               : "rak0jj/blogComments"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 
 logo                     : # "/assets/logoProfile.jpg"
