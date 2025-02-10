@@ -1,9 +1,9 @@
 ---
-title: "Github"
+title: "GitHub"
 layout: category
 permalink: /basics/github/
 author_profile: true
-taxonomy: Github
+taxonomy: GitHub
 sidebar:
   nav: "categories"
 ---
